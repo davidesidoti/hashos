@@ -16,3 +16,13 @@
 # penetration testing easier :)
 
 # WARNING: Please remember, illegal activity is forbidden using hashos tool. All actions carried out using this tool are solely your responsibility.
+
+from lib.hargs import LogLevelEnum
+from lib.hlog import printHeader, hlog
+
+class HashOS:
+	def __init__(self) -> None:
+		printHeader()
+
+if __name__ == "__main__":
+	HashOS()
