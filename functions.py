@@ -14,16 +14,18 @@ class bcolors:
     UNDERLINE = '\033[4m'
 
 # Function to print the header of the program
+
+
 def print_header():
-	print(r""".__                  .__                  
+    print(r""".__                  .__                  
 |  |__ _____    _____|  |__   ____  ______
 |  |  \\__  \  /  ___/  |  \ /  _ \/  ___/
 |   Y  \/ __ \_\___ \|   Y  (  <_> )___ \ 
 |___|  (____  /____  >___|  /\____/____  >
      \/     \/     \/     \/           \/ """)
-	print("\n*****************************************************************************")
-	print("\n* Copyright of hashdeveloper, 2022				             *")
-	print("\n* https://tryhackme.com/p/hashdeveloper			                     *")
-	print(f"\n* {bcolors.FAIL}WARNING: Please remember, illegal activity is forbidden using hashos tool.{bcolors.ENDC} *")
-	print(f"\n* {bcolors.FAIL}All actions carried out using this tool are solely your responsibility.{bcolors.ENDC}    *")
-	print("\n*****************************************************************************")
+    print("\n*****************************************************************************")
+    print("\n* Copyright of hashdeveloper, 2022				             *")
+    print("\n* https://tryhackme.com/p/hashdeveloper			                     *")
+    print(f"\n* {bcolors.FAIL}WARNING: Please remember, illegal activity is forbidden using hashos tool.{bcolors.ENDC} *")
+    print(f"\n* {bcolors.FAIL}All actions carried out using this tool are solely your responsibility.{bcolors.ENDC}    *")
+    print("\n*****************************************************************************")
